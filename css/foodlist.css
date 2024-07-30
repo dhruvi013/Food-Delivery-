@@ -1,0 +1,152 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  padding-top: 50px;
+  background: linear-gradient(-90deg, #d6d4d2, #d6d6d6);
+}
+
+.food-card {
+  margin-bottom: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 5px;
+  width: calc(33.33% - 20px); /* Set width to 33.33% minus margin for 3 cards in a row */
+  margin-right: 20px; /* Add right margin to create space between cards */
+  float: left; /* Float cards left to create inline layout */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.food-card:nth-child(3n) {
+  margin-right: 0; /* Remove right margin for every third card to prevent extra space */
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.27);
+}
+
+.mypanel {
+  padding: 20px;
+  border: 1px solid #eaeaec;
+  border-radius: 5px;
+  height: 70%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-success {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: darkgreen;
+  color: white;
+  transform: scale(1.05);
+}
+
+.input-group {
+  margin-top: 10px;
+}
+
+.input-group-btn {
+  width: 1%;
+}
+
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+footer {
+  display: block;
+}
+
+.mypanel {
+  border: 1px solid #eaeaec;
+  margin: -1px 19px 3px -1px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #FAFAFA;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+input {
+  border: 5px solid white;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer hr {
+  border-top: 1px solid #777;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.social-icons img {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+}
+
+.footer ul a {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+}
