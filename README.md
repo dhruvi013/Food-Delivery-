@@ -15,6 +15,7 @@ Order Placement: Confirm orders with options like Cash on Delivery.
 
 Order History: Track past orders and their statuses.
 
+
 For Managers:
 
 Manager Authentication: Secure login for restaurant managers.
@@ -28,6 +29,7 @@ Edit existing food item details.
 Delete food items from the menu.
 
 Order Management: View and manage incoming customer orders.
+
 
 🛠️ Technologies Used
 
