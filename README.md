@@ -3,6 +3,7 @@
 A dynamic web-based food delivery platform developed using PHP, HTML, CSS, and JavaScript. This application facilitates seamless interactions between customers and restaurant managers, enabling functionalities such as browsing menus, placing orders, and managing food items.
 
 🚀 Features
+
 For Customers:
 
 User Registration & Authentication: Secure sign-up and login processes.
